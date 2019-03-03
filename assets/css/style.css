@@ -1,0 +1,62 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1, h2{
+  margin: 1rem;
+}
+h1{
+  font-size: 2.2rem;
+}
+
+#question-box{
+  display: inline-block;
+  margin: 3rem;
+}
+#q-a-box{
+  font-size: 1.25rem;
+}
+li{
+  list-style-type: none;
+}
+
+li:hover{
+  background: rgba(200, 200, 200, 0.4);
+  border-radius: .2rem;  
+  -webkit-border-radius: .2rem;
+  -moz-border-radius: .2rem;
+  -ms-border-radius: .2rem;
+  -o-border-radius: .2rem;
+}
+
+/*https://www.w3schools.com/howto/howto_css_fullscreen_video.asp*/
+#myVideo {
+  z-index: -1;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+}
+#game-container{
+  /* position: fixed; */
+  /*top: 10vh;*/
+  background: rgba(0, 0, 0, 0.65);
+  color: #f1f1f1;
+  width: 80%;
+  padding: 20px;
+  height:75vh;
+  margin: 5% auto;
+  text-align: center;
+}
+#answer-list{
+  height: 5rem;
+}
+#play-again{
+  background: rgba(200, 200, 200, 0.4);
+  border-radius: .2rem;
+
+}
